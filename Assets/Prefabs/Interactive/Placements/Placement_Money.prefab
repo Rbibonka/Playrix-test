@@ -5074,7 +5074,7 @@ MonoBehaviour:
   - {fileID: 8662604512266627098}
   - {fileID: 8791221403956240363}
   - {fileID: 1572542708859579925}
-  _size: {x: 3, y: 25, z: 2}
+  _size: {x: 3, y: 100, z: 2}
   _interval: {x: 0.36, y: 0.185, z: 0.58}
   _slotRotation: {x: 0, y: -91.69, z: 0}
   _itemTypeId:
