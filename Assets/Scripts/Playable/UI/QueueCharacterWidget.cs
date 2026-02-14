@@ -1,4 +1,4 @@
-﻿using Base.PoolingSystem;
+using Base.PoolingSystem;
 using Playable.Gameplay.NPCs;
 using UnityEngine;
 using UnityEngine.UI;
@@ -86,7 +86,7 @@ namespace Playable.UI
                 case NpcQueueState.Buying:
                     _passiveState.SetActive(false);
                     _activeState.SetActive(true);
-                
+
                     _numberWidget.SetNumber((int)((cargo.Slots.Count * _numberMultiplier) - (count * _numberMultiplier)));
                     var percent = (float)count / cargo.Slots.Count;
                     if (_fillRemap.x > 0f || _fillRemap.y < 1f)

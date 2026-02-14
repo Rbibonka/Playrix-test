@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using Base;
@@ -58,9 +58,6 @@ namespace Playable.Gameplay.Placements
 
         public void Activate()
         {
-            if (_placementRoot.gameObject.activeSelf)
-                return;
-            
             _placementRoot.DOKill();
             _placementRoot.gameObject.SetActive(true);
             _collider.enabled = false;
@@ -77,8 +74,6 @@ namespace Playable.Gameplay.Placements
 
         public void Deactivate()
         {
-            if (!_placementRoot.gameObject.activeSelf)
-                return;
             _placementRoot.DOKill();
             _collider.enabled = false;
             if (_placementHideAnim == null)

@@ -13,9 +13,10 @@ MonoBehaviour:
   m_Name: DefaultPlacement_Show
   m_EditorClassIdentifier: 
   customCallbackTimes: []
-  duration: 0.4
+  duration: 0.6
+  delay: 0
   scaleEnabled: 1
-  useCustomScale: 0
+  useCustomScale: 1
   customScale: {x: 1, y: 1, z: 1}
   scaleCurve:
     X:
@@ -31,19 +32,19 @@ MonoBehaviour:
         inWeight: 0
         outWeight: 0.06896675
       - serializedVersion: 3
-        time: 0.24962926
-        value: 1.1814884
-        inSlope: 1.3942367
-        outSlope: 1.3942367
-        tangentMode: 34
+        time: 0.41212925
+        value: 1.185861
+        inSlope: 0.2661118
+        outSlope: 0.2661118
+        tangentMode: 0
         weightedMode: 0
         inWeight: 0.33333334
-        outWeight: 0.33333334
+        outWeight: 0.61989397
       - serializedVersion: 3
         time: 0.66142577
         value: 0.8756402
-        inSlope: -0.18770622
-        outSlope: -0.18770622
+        inSlope: -0.43854022
+        outSlope: -0.43854022
         tangentMode: 34
         weightedMode: 0
         inWeight: 0.33333334
