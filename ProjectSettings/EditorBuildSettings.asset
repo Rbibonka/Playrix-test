@@ -5,7 +5,7 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 0
-    path: Assets/Scenes/MechanicSamples.unity
-    guid: b5355e1a0e6d69c40a225621c6c76cc1
+  - enabled: 1
+    path: Assets/Scenes/Main.unity
+    guid: 21e59d2a3dbdd7f45919cf9072fd9f2e
   m_configObjects: {}
