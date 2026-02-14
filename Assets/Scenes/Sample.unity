@@ -23100,9 +23100,13 @@ PrefabInstance:
       value: Placement_Purchase_2
       objectReference: {fileID: 0}
     - target: {fileID: 1806589539620763502, guid: f70fa1780fe4a4c4b90baa0134bd3980, type: 3}
+      propertyPath: _price
+      value: 250
+      objectReference: {fileID: 0}
+    - target: {fileID: 1806589539620763502, guid: f70fa1780fe4a4c4b90baa0134bd3980, type: 3}
       propertyPath: _onCompletePurchase.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 260649026}
+      objectReference: {fileID: 260649030}
     - target: {fileID: 1806589539620763502, guid: f70fa1780fe4a4c4b90baa0134bd3980, type: 3}
       propertyPath: _onCompletePurchase.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: Play
